@@ -51,7 +51,6 @@ A WebAssembly (WASM) based password generator implemented in Rust. This password
                 const no_sequential = document.getElementById('no_sequential').checked;
                 const password = generate_password(length, include_numbers, include_alphabets, special_chars, exclude_chars, no_similar, no_duplicates, no_sequential);
                 document.getElementById('password').innerText = password;
-                document.getElementById('copy').classList.remove("d-none");
             };
         }
         run();
