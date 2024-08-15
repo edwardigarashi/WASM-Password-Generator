@@ -2,6 +2,10 @@
 
 A WebAssembly (WASM) based password generator implemented in Rust. This password generator allows users to specify various criteria such as length, inclusion/exclusion of numbers, alphabets, special characters, and more.
 
+## Demo
+Demo can be found through this link
+https://igarashi.net/random-password-generator/
+
 ## Features
 
 - **Length**: Specify the length of the password.
